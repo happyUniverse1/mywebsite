@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+    
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset ends here 
+----------------------
+*/
+
+
+body{
+    background-image : url("img/profil2plus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /*width: 99%;*/
+  
+}
+nav{
+    list-style-type: none;
+    text-align: right;
+    background-color: rgba(100% , 100% , 100% , .2);
+    margin: 0;
+    padding: 3% 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+ul{
+    /*float: right;*/
+    margin-right: 3%;
+    padding-left: auto;
+    
+    
+}
+li{
+    display: inline;
+    /*margin-right: 5%;*/
+    margin-left: 5%;
+    
+    
+    
+    
+    
+}
+.logo{
+    display: inline-block;
+    height: 0;
+    width: 20%;
+    float: left;
+    padding-left: 3%;
+    margin-top: -3%;
+    margin-bottom: 3%;
+    padding-top: 0;
+    padding-bottom: auto;
+}
+img.nav{
+    max-width: 100%;
+}
+li a {
+    color: #414141;
+    color: white;
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: lighter;
+    font-size: larger;
+    padding-bottom: 50px;
+}
+li a:hover{
+     text-decoration: none;
+   
+    color: #f32f54;
+}
+.container{
+    width: 100%;
+    display: block;
+    
+}
+.profile-image img{
+    max-width: 100%;
+    display: block;
+}
+.bio{
+    position: absolute;
+    top: 100%;
+    left: 15%;
+   
+    width: 70%;
+    margin: 0 auto;
+    height:0%;
+    padding-bottom: 100%;
+    
+    bottom: 100%;
+    
+
+}
+.back{
+    background: white;
+    opacity: .05;
+    height:0%;
+    padding-bottom: 100%;
+}
+li.about{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f32f54;
+}
+
+
+.list {
+    
+    color: white;
+    font-family: raleway;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 35%;
+    
+    
+}
+
+.para a{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    left: 0;
+    text-decoration: none;
+    color: white;
+}
+.para a:before{
+    content: ">_"
+}
+p a {
+    font-family: raleway;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin-top: 8%;
+    text-align: center;
+    letter-spacing: 5px;
+}
+p a:after{
+    content : "<";
+}
+.clickme{
+    color: white;
+    font-size: 15px;
+    font-family: raleway;
+    text-align: center;
+    padding-top: 3px;
+    opacity: .3;
+}
+
+#bio{
+    position: absolute;
+    top: 100%;
+    width: 60%;
+    left:20%;
+    padding-bottom: 30%;
+}
+ p.pbio {
+    
+    font-family: raleway;
+    font-size: 20px;
+     font-weight: lighter;
+    color: white;
+    display: block;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    line-height: 30px; 
+    text-align: center;
+    letter-spacing: 5px;
+    
+}
+#iDo{
+    padding-bottom: 5%;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#ulbio li{
+    color: white;
+    font-family: raleway;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+#ulbio{
+    text-align: center;
+}
+#bio hr{
+  width: 40%;   
+}
